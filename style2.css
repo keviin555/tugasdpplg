@@ -1,0 +1,58 @@
+body {
+    background-image: url(https://e31fdd26.rocketcdn.me/wp-content/uploads/2023/08/forest1.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.box {
+    text-align: center;
+    border-width: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(78, 230, 48, 0.8);
+    border: 2px dashed #FFFFFF;
+}
+
+th, td {
+    border: 1px solid #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #15e423;
+    color: #FFFFFF;
+}
+
+.highlight {
+    background-color: #FFB6C1;
+}
+
+td {
+    color: #FFFFFF;
+}
+
+@media (max-width:1000px) {
+    table {
+        width: 500%;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+}
